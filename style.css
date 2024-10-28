@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+main.container {
+    margin-top: 80px;
+  }
+  
+
+.container {
+    margin-top: 50px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+.image-container {
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.subscribe-form {
+    margin-top: 50px;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.subscribe-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.nav-item {
+    margin-right:  20px;
+}
+
+.small-carousel-image {
+    width: 75%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .custom-control {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .carousel-control-prev {
+    left: 10%;
+  }
+
+  .carousel-control-next {
+    right: 10%;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black;
+    background-size: 100%;
+  }
+  
+  .carousel-caption .carousel-link {
+    color: white; /* Makes the link text color white */
+    text-decoration: none; /* Optional: remove underline */
+  }
+
+  .carousel-caption .carousel-link:hover {
+    color: #ddd; /* Optional: slightly different color on hover */
+  }
